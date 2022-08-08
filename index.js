@@ -8,5 +8,5 @@ app.use(express.json())
 app.use(frontRouter)
 
 app.listen(PORT, ()=>{
-    console.log('Front server is up and running on port:'+ PORT)
+    console.log('Front server is running on port:'+ PORT)
 }) 
